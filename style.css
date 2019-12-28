@@ -29,7 +29,7 @@ a {
 .container {
     max-width: 960px;
     padding-left: 1rem;
-    padding-right: 1reme;
+    padding-right: 1rem;
     margin: auto;
     text-align: center;
 }
@@ -39,6 +39,15 @@ a {
     margin: auto;
     overflow: auto;
     padding: 0 2rem;
+}
+
+.social_tray {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1.2rem;
 }
 
 .fullscreen-video-wrap {
@@ -107,9 +116,14 @@ a {
     padding: 0 0 0 2rem;
 }
 
-.card h3 {
+/* .card h3 {
     margin-bottom: 2rem;
-}
+} */
+
+/* .card h4 {
+    margin: 0rem 0rem;
+} */
+
 .card h5 {
     font-size: .75rem;
     color: rgb(82, 82, 82);
