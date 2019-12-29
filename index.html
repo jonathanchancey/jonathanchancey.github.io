@@ -5,12 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <script src="https://kit.fontawesome.com/1ab3bc147a.js" crossorigin="anonymous"></script>
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
+    
     <title>chancey.dev</title>
 </head>
 <body>
@@ -26,14 +31,87 @@
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus voluptatem repudiandae sed magni itaque?</p>
             <a href="#profile" class="btn">Read More</a>
         </div>
+        
     </header>
 
     <section id="profile" class="section section-a">
 
         <div class="container">
-            <h1>🦀🦀🦀</h1>
-            <p>🦀 we've got claws 🦀 we've got shells 🦀 snip and snap the infidels 🦀</p>
+            <h1>Experience</h1>
+            <section class="social_tray">
+                <div>
+                    <a href="https://linkedin.com/in/jchancey/" class="fab fa-linkedin-in"></a>
+                </div>
+                <div>
+                    <a href="https://github.com/jonathanchancey/" class="fab fa-github"></a>
+                </div>
+                <div>
+                    <a href="mailto:jonathan@chancey.dev" class="fas fa-envelope"></a>
+                </div>
+            </section>
+
+            <!-- <p>🦀 we've got claws 🦀 we've got shells 🦀 snip and snap the infidels 🦀</p> -->
         </div>
     </section>
+    <main class="container_alt">
+        <section class="card">
+            <img class="img" src="assets/Intel-logo.svg" alt="">
+            <div>
+                <h3>Intel Corporation</h3>
+                <h4>SSD Performance Testing Intern</h4>
+                <p>Utilized/automated/analyzed industry-grade drive benchmarking tools. Redesigned and implemented customer-facing UI summary.</p>
+            </div>
+            <div>
+                <h5>Jun 2019 - Jan 2020</h5>
+                <h5>Folsom, CA</h5>
+            </div>
+        </section>
+        <section class="card" data-aos="fade-left">
+            <img class="img" src="assets/ACM-logo_transparent.png" alt="">
+            <div>
+                <h3>Association for Computing and Machinery</h3>
+                <h4>Executive Board, Leadership</h4>
+                <p>Facilitate technical workshops and events to inspire technical excellence.</p>
+            </div>
+            <div>
+                <h5>Jan 2018 - Present</h5>
+                <h5>Merced, CA</h5>
+            </div>
+        </section>
+        <section class="card" data-aos="fade-right">
+            <img class="img" src="assets/ucmit_text_trans_logo.png" alt="">
+            <div>
+                <h3>Office of Information Technology</h3>
+                <h4>Student Technology Consultant</h4>
+                <p>Provided classroom equipment, technical support, and training to students, faculty, and staff.</p>
+                <h4>Computer Labs Hardware Support</h4>
+                <p>Maintained campus labs continuous function and ensured up-to-date software/system images.</p>
+            </div>
+            <div>
+                <h5>Jan 2019 - May 2019</h5>
+                <h5>Jan 2018 - Jul 2018</h5>
+                <h5>Merced, CA</h5>
+            </div>
+        </section>
+        <section class="card" data-aos="fade-left">
+            <img class="img" src="assets/tt-logo-small-black.png"  alt="">
+            <div>
+                <h3>Theta Tau</h3>
+                <h4>Member, Technology Chair</h4>
+                <p>Maintained chapter website and assisted in organization-run events for professional development.</p>
+            </div>
+            <div>
+                <h5>Feb 2017 - Sep 2018</h5>
+                <h5>Merced, CA</h5>
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 100,
+            duration: 500
+        });
+    </script>
 </body>
 </html>
