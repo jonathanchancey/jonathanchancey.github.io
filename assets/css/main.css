@@ -1,5 +1,6 @@
 @import url(fontawesome-all.min.css);
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300");
+/* @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300"); */
+@import url("https://fonts.googleapis.com/css2?family=Lato:300");
 
 /*
 	Identity by HTML5 UP
@@ -154,7 +155,7 @@
 
 	body, input, select, textarea {
 		color: #414f57;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "Lato", Helvetica, sans-serif;
 		font-size: 14pt;
 		font-weight: 300;
 		line-height: 2;
@@ -980,7 +981,8 @@
 		align-self: flex-end;
 		width: 100%;
 		padding: 1.5em 0 0 0;
-		color: rgba(255, 255, 255, 0.75);
+		color: rgba(255, 255, 255, 0.9);
+		/* text-shadow: 1px 1px 0 #616f77; */
 		cursor: default;
 		text-align: center;
 	}
@@ -988,7 +990,7 @@
 		#footer .copyright {
 			margin: 0;
 			padding: 0;
-			font-size: 0.9em;
+			font-size: 0.75em;
 			list-style: none;
 		}
 
@@ -998,6 +1000,11 @@
 				padding: 0 0 0 0.85em;
 				border-left: solid 1px rgba(255, 255, 255, 0.5);
 				line-height: 1;
+				background-color: rgba(0, 0, 0,0.2); /* Changing background color */
+				border-radius: 10px; /* Making border radius */
+				width: auto; /* Making auto-sizable width */
+				height: auto; /* Making auto-sizable height */
+				padding: 5px 30px 5px 30px; /* Making space around letters */
 			}
 
 				#footer .copyright li:first-child {
