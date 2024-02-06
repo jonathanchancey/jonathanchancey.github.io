@@ -38,7 +38,7 @@ paginate = 5
   showLastUpdated = false
 
   # set a custom favicon (default is a `themeColor` square)
-  favicon = "favicon.ico"
+  # favicon = "./content/static/img/favicon.ico"
 
   # Provide a string as a prefix for the last update date. By default, it looks like this: 2020-xx-xx [Updated: 2020-xx-xx] :: Author
   updatedDatePrefix = "Updated"
@@ -60,8 +60,8 @@ paginate = 5
 [languages]
   [languages.en]
     languageName = "english"
-    title = "terminal"
-    subtitle = "a simple, retro theme for Hugo"
+    title = "chancey.dev"
+    subtitle = ""
     owner = ""
     keywords = ""
     copyright = ""
@@ -84,18 +84,16 @@ paginate = 5
         identifier = "about"
         name = "about"
         url = "/about"
+        weight = 1
       [[languages.en.menu.main]]
-        identifier = "projects"
-        name = "projects"
-        url = "/projects"
+        identifier = "posts"
+        name = "posts"
+        url = "/posts"
+        weight = 2
       [[languages.en.menu.main]]
         identifier = "github"
         name = "github"
         url = "https://github.com/jonathanchancey/"
-      [[languages.en.menu.main]]
-        identifier = "email"
-        name = "email"
-        url = "mailto:jonathan@chancey.dev"
       [[languages.en.menu.main]]
         identifier = "linkedin"
         name = "linkedin"
