@@ -2,12 +2,10 @@
 
 ## instructions
 
-locally because the repo is archived
-```bash
-git clone https://github.com/panr/hugo-theme-terminal.git themes/terminal
-```
-
 ```scss
 $accent: #B57EDC;
 ```
 
+# credit
+
+To the theme creator, [give 'em a star](https://github.com/panr/hugo-theme-terminal.git)
